@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Para usar Firebase -->
+    <string name="client_id" formatted="false" translatable="false">129649726920-jh1me3t4rbbikfl789fl8go50lfdk0vt.apps.googleusercontent.com</string>
+    <!-- API key de Google para usar MAPS -->
+    <string name="key_google" translatable="false" formatted="false">AIzaSyCl0729gHJgKQvP9iBdG3cmzBIu94Reyv0</string>
+</resources>

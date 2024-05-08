@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    tools:context=".DisplayPreferencesActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Tus Preferencias"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold|italic" />
+
+            <!-- Bloque Nombre -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Etiqueta Nombre -->
+                <TextView
+                    android:id="@+id/tv_EtiquetaNombre"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Nombre:"
+                    android:textStyle="bold" />
+
+                <!-- Valor Nombre -->
+                <TextView
+                    android:id="@+id/tv_ValorNombre"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="2"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <!-- Bloque Edad -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Etiqueta Edad -->
+                <TextView
+                    android:id="@+id/tv_EtiquetaEdad"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Edad:"
+                    android:textStyle="bold" />
+
+                <!-- Valor Edad -->
+                <TextView
+                    android:id="@+id/tv_ValorEdad"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="2"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <!-- Bloque Dietas -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Etiqueta Dietas -->
+                <TextView
+                    android:id="@+id/tv_EtiquetaDietas"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Dietas:"
+                    android:textStyle="bold" />
+
+                <!-- Valor Dietas -->
+                <TextView
+                    android:id="@+id/tv_ValorDietas"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="2"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <!-- Bloque Sexo -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Etiqueta Sexo -->
+                <TextView
+                    android:id="@+id/tv_EtiquetaSexo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Sexo:"
+                    android:textStyle="bold" />
+
+                <!-- Valor Sexo -->
+                <TextView
+                    android:id="@+id/tv_ValorSexo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="2"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <!-- Bloque Gustos y Preferencias alimenticias -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Etiqueta Gustos -->
+                <TextView
+                    android:id="@+id/tv_EtiquetaGustos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Gustos y Preferencias alimenticias:"
+                    android:textStyle="bold" />
+
+                <!-- Valor Gustos -->
+                <TextView
+                    android:id="@+id/tv_ValorGustos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="2"
+                    android:text="TextView" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Volver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

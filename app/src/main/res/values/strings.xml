@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Practica1_Android_GarciaFernandezMarta</string>
+    <string name="txt_edad">Edad: %d años</string>
+    <string-array name="opciones_gustos">
+        <item>--- Seleccione Preferencia ---</item>
+        <item>Mediterránea</item>
+        <item>Italiana</item>
+        <item>Asiática</item>
+        <item>Mexicana</item>
+        <item>India</item>
+        <item>Francesa</item>
+        <item>Marroquí</item>
+        <item>Caribeña</item>
+    </string-array>
+</resources>
